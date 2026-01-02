@@ -17,7 +17,7 @@ function App() {
       {/* Navigation */}
       <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
         <div className="nav-container">
-          <div className="logo">Microknots</div>
+          <div className="logo">microknots</div>
           <div className="nav-links">
             <a href="#capabilities">Capabilities</a>
             <a href="#orion">Orion</a>
@@ -341,7 +341,7 @@ function App() {
           <div className="footer-content">
             <div className="footer-main">
               <div className="footer-brand">
-                <h3>Microknots</h3>
+                <h3>microknots</h3>
                 <p>Engineering Intelligence for the Modern Enterprise</p>
                 <p className="footer-tagline">
                   We empower businesses to make smarter decisions, scale confidently, 
