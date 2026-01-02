@@ -26,6 +26,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
+  background: #000000;
+  color: #ffffff;
 }
 
 #root {
@@ -40,6 +42,6 @@ html {
 
 /* Selection */
 ::selection {
-  background: rgba(102, 126, 234, 0.2);
-  color: #1a1a1a;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
 }
