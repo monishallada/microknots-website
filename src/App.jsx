@@ -74,60 +74,165 @@ function App() {
               </div>
             </div>
             <div className="content-visual">
-              <div className="visual-container">
-                <div className="platform platform-bottom">
-                  <div className="platform-label">MICROKNOTS DATA ENGINE</div>
+              <div className="isometric-container">
+                {/* Base Layer - Microknots Data Engine */}
+                <div className="layer base-layer">
+                  <div className="block base-block">
+                    <div className="block-face front">
+                      <div className="block-label">MICROKNOTS DATA ENGINE</div>
+                    </div>
+                    <div className="block-face top"></div>
+                    <div className="block-face right"></div>
+                  </div>
                 </div>
-                <div className="platform platform-middle">
-                  <div className="platform-label">GENERATIVE AND FOUNDATION MODELS</div>
-                  <div className="platform-sublabel">RLHF</div>
-                  <div className="platform-connections"></div>
+
+                {/* Middle Layer - Generative and Foundation Models */}
+                <div className="layer middle-layer">
+                  <div className="block middle-block">
+                    <div className="block-face front">
+                      <div className="block-label">GENERATIVE AND FOUNDATION MODELS</div>
+                    </div>
+                    <div className="block-face top"></div>
+                    <div className="block-face right"></div>
+                  </div>
+                  <div className="block rlhf-block">
+                    <div className="block-face front">
+                      <div className="block-label">RLHF</div>
+                    </div>
+                    <div className="block-face top"></div>
+                    <div className="block-face right"></div>
+                  </div>
                 </div>
-                <div className="platform platform-top">
-                  <div className="industry-bars">
-                    <div className="industry-bar" data-industry="MARKETING">
-                      <div className="bar-fill"></div>
-                      <div className="bar-label">MARKETING</div>
-                      <div className="bar-models">
-                        <span>CLAUDE 3.5</span>
-                        <span>LLAMA-3.1</span>
-                      </div>
+
+                {/* Foundation Models Layer */}
+                <div className="layer models-layer">
+                  <div className="model-block" data-model="claude">
+                    <div className="block-face front">
+                      <div className="block-label">CLAUDE 3.5</div>
                     </div>
-                    <div className="industry-bar" data-industry="FINANCIAL SERVICES">
-                      <div className="bar-fill"></div>
-                      <div className="bar-label">FINANCIAL SERVICES</div>
-                      <div className="bar-models">
-                        <span>GPT-40</span>
-                        <span>GEMINI 1.5</span>
-                      </div>
+                    <div className="block-face top"></div>
+                    <div className="block-face right"></div>
+                  </div>
+                  <div className="model-block" data-model="llama">
+                    <div className="block-face front">
+                      <div className="block-label">LLAMA-3.1</div>
                     </div>
-                    <div className="industry-bar" data-industry="INSURANCE">
-                      <div className="bar-fill"></div>
-                      <div className="bar-label">INSURANCE</div>
-                      <div className="bar-models">
-                        <span>CLAUDE 3.5</span>
-                      </div>
+                    <div className="block-face top"></div>
+                    <div className="block-face right"></div>
+                  </div>
+                  <div className="model-block" data-model="gpt">
+                    <div className="block-face front">
+                      <div className="block-label">GPT-4o</div>
                     </div>
-                    <div className="industry-bar" data-industry="RETAIL">
-                      <div className="bar-fill"></div>
-                      <div className="bar-label">RETAIL</div>
-                      <div className="bar-models">
-                        <span>LLAMA-3.1</span>
-                      </div>
+                    <div className="block-face top"></div>
+                    <div className="block-face right"></div>
+                  </div>
+                  <div className="model-block" data-model="cohere">
+                    <div className="block-face front">
+                      <div className="block-label">COHERE RERANK</div>
                     </div>
-                    <div className="industry-bar" data-industry="E-COMMERCE">
-                      <div className="bar-fill"></div>
-                      <div className="bar-label">E-COMMERCE</div>
-                      <div className="bar-models">
-                        <span>GPT-40</span>
-                      </div>
+                    <div className="block-face top"></div>
+                    <div className="block-face right"></div>
+                  </div>
+                  <div className="model-block" data-model="gemini">
+                    <div className="block-face front">
+                      <div className="block-label">GEMINI 1.5 PRO</div>
                     </div>
-                    <div className="industry-bar" data-industry="LEGAL">
-                      <div className="bar-fill"></div>
-                      <div className="bar-label">LEGAL</div>
-                      <div className="bar-models">
-                        <span>GEMINI 1.5</span>
+                    <div className="block-face top"></div>
+                    <div className="block-face right"></div>
+                  </div>
+                  <div className="model-block" data-model="mistral">
+                    <div className="block-face front">
+                      <div className="block-label">MISTRAL LARGE 2</div>
+                    </div>
+                    <div className="block-face top"></div>
+                    <div className="block-face right"></div>
+                  </div>
+                </div>
+
+                {/* Industry App Pillars */}
+                <div className="layer pillars-layer">
+                  <div className="pillar" data-industry="marketing">
+                    <div className="pillar-connectors">
+                      <div className="connector-cube"></div>
+                      <div className="connector-cube"></div>
+                    </div>
+                    <div className="pillar-block">
+                      <div className="block-face front">
+                        <div className="pillar-label-top">APP</div>
+                        <div className="pillar-label-side">MARKETING</div>
                       </div>
+                      <div className="block-face top"></div>
+                      <div className="block-face right"></div>
+                    </div>
+                  </div>
+                  <div className="pillar" data-industry="financial">
+                    <div className="pillar-connectors">
+                      <div className="connector-cube"></div>
+                      <div className="connector-cube"></div>
+                    </div>
+                    <div className="pillar-block">
+                      <div className="block-face front">
+                        <div className="pillar-label-top">APP</div>
+                        <div className="pillar-label-side">FINANCIAL SERVICES</div>
+                      </div>
+                      <div className="block-face top"></div>
+                      <div className="block-face right"></div>
+                    </div>
+                  </div>
+                  <div className="pillar" data-industry="insurance">
+                    <div className="pillar-connectors">
+                      <div className="connector-cube"></div>
+                      <div className="connector-cube"></div>
+                    </div>
+                    <div className="pillar-block">
+                      <div className="block-face front">
+                        <div className="pillar-label-top">APP</div>
+                        <div className="pillar-label-side">INSURANCE</div>
+                      </div>
+                      <div className="block-face top"></div>
+                      <div className="block-face right"></div>
+                    </div>
+                  </div>
+                  <div className="pillar" data-industry="retail">
+                    <div className="pillar-connectors">
+                      <div className="connector-cube"></div>
+                      <div className="connector-cube"></div>
+                    </div>
+                    <div className="pillar-block">
+                      <div className="block-face front">
+                        <div className="pillar-label-top">APP</div>
+                        <div className="pillar-label-side">RETAIL</div>
+                      </div>
+                      <div className="block-face top"></div>
+                      <div className="block-face right"></div>
+                    </div>
+                  </div>
+                  <div className="pillar" data-industry="ecommerce">
+                    <div className="pillar-connectors">
+                      <div className="connector-cube"></div>
+                      <div className="connector-cube"></div>
+                    </div>
+                    <div className="pillar-block">
+                      <div className="block-face front">
+                        <div className="pillar-label-top">APP</div>
+                        <div className="pillar-label-side">E-COMMERCE</div>
+                      </div>
+                      <div className="block-face top"></div>
+                      <div className="block-face right"></div>
+                    </div>
+                  </div>
+                  <div className="pillar" data-industry="legal">
+                    <div className="pillar-connectors">
+                      <div className="connector-cube"></div>
+                    </div>
+                    <div className="pillar-block">
+                      <div className="block-face front">
+                        <div className="pillar-label-top">APP</div>
+                        <div className="pillar-label-side">LEGAL</div>
+                      </div>
+                      <div className="block-face top"></div>
+                      <div className="block-face right"></div>
                     </div>
                   </div>
                 </div>
