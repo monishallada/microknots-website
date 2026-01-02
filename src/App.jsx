@@ -74,137 +74,50 @@ function App() {
               </div>
             </div>
             <div className="content-visual">
-              <div className="isometric-container">
-                {/* Base Layer - Microknots Data Engine */}
-                <div className="layer base-layer">
-                  <div className="block base-block">
-                    <div className="block-face">
-                      <div className="block-label">MICROKNOTS DATA ENGINE</div>
-                    </div>
-                  </div>
+              <div className="data-engine-scene">
+                <div className="scene-glow"></div>
+                <div className="scene-grid"></div>
+                <div className="orbital-track">
+                  <span className="orbital-dot"></span>
+                  <span className="orbital-dot"></span>
+                  <span className="orbital-dot"></span>
+                  <span className="orbital-dot"></span>
                 </div>
-
-                {/* Middle Layer - Generative and Foundation Models */}
-                <div className="layer middle-layer">
-                  <div className="block middle-block">
-                    <div className="block-face">
-                      <div className="block-label">GENERATIVE AND FOUNDATION MODELS</div>
+                <div className="engine-stack">
+                  <div className="engine-slab base">
+                    <div className="slab-top">MICROKNOTS DATA ENGINE</div>
+                    <div className="slab-edge"></div>
+                  </div>
+                  <div className="engine-slab mid">
+                    <div className="slab-top">FOUNDATION + GENERATIVE MODELS</div>
+                    <div className="slab-edge"></div>
+                    <div className="model-chips">
+                      <span>Claude 3.5</span>
+                      <span>GPT-4o</span>
+                      <span>Gemini 1.5</span>
+                      <span>Llama 3.1</span>
+                      <span>Mistral L2</span>
                     </div>
                   </div>
-                  <div className="block rlhf-block">
-                    <div className="block-face">
-                      <div className="block-label">RLHF</div>
+                  <div className="engine-slab top">
+                    <div className="slab-top">RLHF + APPS</div>
+                    <div className="slab-edge"></div>
+                    <div className="pillar-chips">
+                      <span>Marketing</span>
+                      <span>Financial</span>
+                      <span>Insurance</span>
+                      <span>Retail</span>
+                      <span>E-commerce</span>
+                      <span>Legal</span>
                     </div>
                   </div>
+                  <div className="core-pulse"></div>
                 </div>
-
-                {/* Foundation Models Layer */}
-                <div className="layer models-layer">
-                  <div className="block model-block" data-model="claude">
-                    <div className="block-face">
-                      <div className="block-label">CLAUDE 3.5</div>
-                    </div>
-                  </div>
-                  <div className="block model-block" data-model="llama">
-                    <div className="block-face">
-                      <div className="block-label">LLAMA-3.1</div>
-                    </div>
-                  </div>
-                  <div className="block model-block" data-model="gpt">
-                    <div className="block-face">
-                      <div className="block-label">GPT-4o</div>
-                    </div>
-                  </div>
-                  <div className="block model-block" data-model="cohere">
-                    <div className="block-face">
-                      <div className="block-label">COHERE RERANK</div>
-                    </div>
-                  </div>
-                  <div className="block model-block" data-model="gemini">
-                    <div className="block-face">
-                      <div className="block-label">GEMINI 1.5 PRO</div>
-                    </div>
-                  </div>
-                  <div className="block model-block" data-model="mistral">
-                    <div className="block-face">
-                      <div className="block-label">MISTRAL LARGE 2</div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Industry App Pillars */}
-                <div className="layer pillars-layer">
-                  <div className="pillar" data-industry="marketing">
-                    <div className="pillar-connectors">
-                      <div className="connector-cube"></div>
-                      <div className="connector-cube"></div>
-                    </div>
-                    <div className="block pillar-block">
-                      <div className="block-face">
-                        <div className="pillar-label-top">APP</div>
-                        <div className="pillar-label-side">MARKETING</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="pillar" data-industry="financial">
-                    <div className="pillar-connectors">
-                      <div className="connector-cube"></div>
-                      <div className="connector-cube"></div>
-                    </div>
-                    <div className="block pillar-block">
-                      <div className="block-face">
-                        <div className="pillar-label-top">APP</div>
-                        <div className="pillar-label-side">FINANCIAL SERVICES</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="pillar" data-industry="insurance">
-                    <div className="pillar-connectors">
-                      <div className="connector-cube"></div>
-                      <div className="connector-cube"></div>
-                    </div>
-                    <div className="block pillar-block">
-                      <div className="block-face">
-                        <div className="pillar-label-top">APP</div>
-                        <div className="pillar-label-side">INSURANCE</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="pillar" data-industry="retail">
-                    <div className="pillar-connectors">
-                      <div className="connector-cube"></div>
-                      <div className="connector-cube"></div>
-                    </div>
-                    <div className="block pillar-block">
-                      <div className="block-face">
-                        <div className="pillar-label-top">APP</div>
-                        <div className="pillar-label-side">RETAIL</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="pillar" data-industry="ecommerce">
-                    <div className="pillar-connectors">
-                      <div className="connector-cube"></div>
-                      <div className="connector-cube"></div>
-                    </div>
-                    <div className="block pillar-block">
-                      <div className="block-face">
-                        <div className="pillar-label-top">APP</div>
-                        <div className="pillar-label-side">E-COMMERCE</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="pillar" data-industry="legal">
-                    <div className="pillar-connectors">
-                      <div className="connector-cube"></div>
-                    </div>
-                    <div className="block pillar-block">
-                      <div className="block-face">
-                        <div className="pillar-label-top">APP</div>
-                        <div className="pillar-label-side">LEGAL</div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="floating-cubes">
+                  <div className="floating-cube cube-1">Data</div>
+                  <div className="floating-cube cube-2">APIs</div>
+                  <div className="floating-cube cube-3">Security</div>
+                  <div className="floating-cube cube-4">Monitoring</div>
                 </div>
               </div>
             </div>
