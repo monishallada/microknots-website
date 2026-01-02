@@ -137,21 +137,104 @@ function App() {
         </div>
       </section>
 
-      {/* Orion Data Engine Section */}
-      <section id="orion" className="orion-section">
+      {/* Products Section */}
+      <section id="products" className="products-section">
         <div className="container">
           <div className="section-badge">BUILD AI</div>
-          <h2 className="section-title">The Orion Data Engine</h2>
+          <h2 className="section-title">Powering Enterprise AI</h2>
           <p className="section-subtitle">
-            Next Generation AI powered by world-class data.
+            Next Generation AI powered by world-class data, models, and infrastructure.
           </p>
-          <div className="orion-cards">
-            <div className="orion-card">
+          
+          {/* Orion Data Engine */}
+          <div className="product-cards">
+            <div className="product-card">
               <h3>Orion Data Engine</h3>
-              <p>Microknots Generative AI Data Engine powers many of the most advanced LLMs and generative models in the world through world-class RLHF, data generation, model evaluation, safety, and alignment.</p>
+              <p>Microknots' flagship data engine empowers companies to integrate, model, and analyze enterprise data in real time. Orion bridges structured and unstructured data, enabling organizations to deploy AI efficiently—without overhauling their existing systems.</p>
+              <ul className="product-features">
+                <li>99% uptime reliability</li>
+                <li>47% operational time savings</li>
+                <li>Streamlined data flow across systems</li>
+                <li>Custom AI models optimized for business performance</li>
+              </ul>
               <div className="card-buttons">
                 <a href="#contact" className="btn btn-primary">Book a Demo →</a>
-                <a href="#build" className="btn btn-secondary">Build AI →</a>
+                <a href="#build" className="btn btn-secondary">Learn More →</a>
+              </div>
+            </div>
+
+            <div className="product-card">
+              <h3>Data Labeling & Annotation</h3>
+              <p>Human-in-the-loop services to train and validate machine learning and vision models with accuracy. Our expert annotators deliver high-quality labeled datasets that power production-grade AI systems.</p>
+              <ul className="product-features">
+                <li>Expert human annotators</li>
+                <li>Multi-modal data support (text, image, video)</li>
+                <li>Quality assurance and validation</li>
+                <li>Scalable annotation pipelines</li>
+              </ul>
+              <div className="card-buttons">
+                <a href="#contact" className="btn btn-primary">Book a Demo →</a>
+                <a href="#build" className="btn btn-secondary">Learn More →</a>
+              </div>
+            </div>
+
+            <div className="product-card">
+              <h3>Model Evaluation & Safety</h3>
+              <p>Comprehensive evaluation frameworks to assess model performance, safety, and alignment. We help organizations deploy AI systems with confidence through rigorous testing and validation.</p>
+              <ul className="product-features">
+                <li>Automated evaluation pipelines</li>
+                <li>Safety and alignment testing</li>
+                <li>Performance benchmarking</li>
+                <li>Custom evaluation metrics</li>
+              </ul>
+              <div className="card-buttons">
+                <a href="#contact" className="btn btn-primary">Book a Demo →</a>
+                <a href="#build" className="btn btn-secondary">Learn More →</a>
+              </div>
+            </div>
+
+            <div className="product-card">
+              <h3>RLHF & Fine-Tuning</h3>
+              <p>Adapt best-in-class foundation models to your business and specific data. Our RLHF and fine-tuning services build sustainable, successful AI programs tailored to your enterprise needs.</p>
+              <ul className="product-features">
+                <li>Custom model fine-tuning</li>
+                <li>Reinforcement Learning from Human Feedback</li>
+                <li>Domain-specific adaptation</li>
+                <li>Continuous model improvement</li>
+              </ul>
+              <div className="card-buttons">
+                <a href="#contact" className="btn btn-primary">Book a Demo →</a>
+                <a href="#build" className="btn btn-secondary">Learn More →</a>
+              </div>
+            </div>
+
+            <div className="product-card">
+              <h3>AI Agent Development</h3>
+              <p>Build reliable AI agents that learn your unique enterprise context and skills to improve outcomes. Deploy intelligent automation that understands your business processes and adapts over time.</p>
+              <ul className="product-features">
+                <li>Enterprise context learning</li>
+                <li>Multi-agent orchestration</li>
+                <li>Continuous skill improvement</li>
+                <li>Production-ready deployment</li>
+              </ul>
+              <div className="card-buttons">
+                <a href="#contact" className="btn btn-primary">Book a Demo →</a>
+                <a href="#build" className="btn btn-secondary">Learn More →</a>
+              </div>
+            </div>
+
+            <div className="product-card">
+              <h3>Cloud Infrastructure & Deployment</h3>
+              <p>Scalable IaaS and PaaS architectures that reduce cost, boost performance, and support global deployment. From cloud migration to AI model serving, we build infrastructure that scales.</p>
+              <ul className="product-features">
+                <li>Multi-cloud deployment</li>
+                <li>Auto-scaling infrastructure</li>
+                <li>Cost optimization</li>
+                <li>Global edge deployment</li>
+              </ul>
+              <div className="card-buttons">
+                <a href="#contact" className="btn btn-primary">Book a Demo →</a>
+                <a href="#build" className="btn btn-secondary">Learn More →</a>
               </div>
             </div>
           </div>
